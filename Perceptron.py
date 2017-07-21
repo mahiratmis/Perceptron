@@ -114,7 +114,7 @@ def perceptron(train, test, l_rate, n_epoch):
 # Test the Perceptron algorithm on the sonar dataset
 seed(1)
 # load and prepare data
-filename = 'sonar.all-data.csv'
+filename = 'sonar.all-data'
 dataset = load_csv(filename)
 for i in range(len(dataset[0]) - 1):
     str_column_to_float(dataset, i)
